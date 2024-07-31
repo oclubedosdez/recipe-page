@@ -1,0 +1,185 @@
+* {
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+:root {
+    --Nutmeg: hsl(14, 45%, 36%);
+    --Dark-Raspberry: hsl(332, 51%, 32%);
+
+    --White: hsl(0, 0%, 100%);
+    --Rose-White: hsl(330, 100%, 98%);
+    --Eggshell: hsl(30, 54%, 90%);
+    --Light-Grey: hsl(30, 18%, 87%);
+    --Wenge-Brown: hsl(30, 10%, 34%);
+    --Dark-Charcoal: hsl(24, 5%, 18%);
+}
+
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--Eggshell);
+}
+
+
+
+
+h1 {
+    font-family: Young Serif;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+p {
+    font-family: Outfit;
+    color: var(--Wenge-Brown);
+}
+
+
+
+
+#preparacao {
+    background-color: var(--Rose-White);
+    border-radius: 10px;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+}
+
+#preparacao div li {
+    font-family: Outfit;
+    line-height: 30px;
+    padding-left: 1rem;
+}
+
+#preparacao {
+    font-family: Outfit;
+    color: var(--Dark-Raspberry);
+}
+
+#preparacao div li {
+    color: var(--Wenge-Brown);
+}
+
+#preparacao div li strong {
+    color: var(--Dark-Charcoal);
+}
+
+section {
+    /* border: 1px solid green; */
+    width: 100%;
+    margin: 20px;
+}
+
+
+
+section .titulo {
+    font-family: Young Serif;
+    font-weight: 400;
+    font-size: 30px;
+    color: var(--Nutmeg);
+}
+
+
+
+#receita {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 800px;
+    
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px 5px hsl(31, 19%, 77%);
+}
+
+#receita #introducao {
+    /* border: 1px solid green; */
+    display: flex;
+    flex-wrap: wrap;
+    width: 95%;
+}
+
+#receita #cabecalho #imagen {
+    padding: 20px;
+}
+
+#receita #introducao h1 {
+    margin-bottom: 5px;
+}
+
+#receita #cabecalho img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+#Ingredientes ul li {
+    font-family: Outfit;
+    color: var(--Dark-Charcoal);
+}
+
+
+#Instrucoes {
+    font-family: Outfit;
+}
+
+#Instrucoes ul {
+    list-style-type: none;
+}
+
+
+#Instrucoes li {
+    padding-left: 15px;
+    /* Ajuste o valor conforme necessário */
+
+}
+
+#Instrucoes ul div {
+    /* border: 1px solid red; */
+    display: flex;
+    margin-bottom: 10px;
+}
+
+#Instrucoes ul div span {
+    font-family: Outfit;
+    color: var(--Nutmeg);
+    font-weight: bolder;
+    font-size: 16px;
+}
+
+#Instrucoes ul div li {
+    font-family: Outfit;
+    color: var(--Wenge-Brown);
+}
+
+#Instrucoes ul div strong {
+    color: var(--Dark-Charcoal);
+}
+
+
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    font-family: outfit;
+}
+
+th,
+td {
+    text-align: left;
+    padding: 8px 30px; 
+    border-bottom: 1px solid #c2c2c2;
+    font-weight: bold;
+    color: var(--Nutmeg);
+}
+
+tr:nth-child(even) {
+    /* background-color: #f2f2f2; */
+}
+
+th {
+    border-bottom: 1px solid #c2c2c2;
+    color: var(--Wenge-Brown);
+  }
